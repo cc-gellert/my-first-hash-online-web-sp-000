@@ -8,7 +8,7 @@ def shipping_manifest
   # set a variable called `the_manifest`, equal to a hash
   # fill that hash with key/value pairs that describe the following information: 
   # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
-  the_mainfest = new Hash  
+  the_mainfest = {}   
   the_mainfest["whale bone corsets"] => 5
   the_mainfest["porcelain vases"] => 2 
   the_mainfest["oil painting"] => 3
